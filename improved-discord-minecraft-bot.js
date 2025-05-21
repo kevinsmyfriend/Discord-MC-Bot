@@ -9,9 +9,9 @@ const fs = require('fs');
 dotenv.config();
 
 // Configuration - Update these values
-const MINECRAFT_SERVER_BAT_PATH = 'D:\\forgeexperiment\\run.bat'; // Change this to your .bat file path
+const MINECRAFT_SERVER_BAT_PATH = 'SERVERPATHHERE'; // Change this to your .bat file path
 const SERVER_STATUS_FILE = 'server_status.json'; // File to track server status
-const ALLOWED_ROLE_NAME = 'Minecraft'; // Role that can use the commands
+const ALLOWED_ROLE_NAME = 'ROLENAMEHERE'; // Role that can use the commands
 
 // Initialize Discord client
 const client = new Client({
